@@ -1,0 +1,22 @@
+.box {
+	cursor: pointer;
+	color: var(--text-color);
+	font-family: var(--font-main);
+	background: var(--bg-color);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	outline: none;
+	border: none;
+	font-size: 4rem;
+	width: 6rem;
+	height: 6rem;
+	box-shadow: 0 0 4px #000000b4;
+	border-radius: 5%;
+	transition: all 0.15s ease-in-out;
+}
+
+.box:hover {
+	box-shadow: 0 0 10px #000000b4;
+	transform: scale(1.04);
+}

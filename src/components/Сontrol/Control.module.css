@@ -1,0 +1,33 @@
+.control {
+	display: flex;
+	gap: 1rem;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+.btn {
+	border: none;
+	outline: none;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 1rem;
+	font-size: 1rem;
+	font-weight: 600;
+	text-transform: uppercase;
+	line-height: 1rem;
+	color: var(--text-color);
+	border-radius: 6px;
+	background: var(--bg-color);
+	box-shadow: 0 0 4px #000000b4;
+	cursor: pointer;
+	transition: all 0.15s ease-in-out;
+	width: 10rem;
+	height: 3rem;
+}
+
+.btn:hover {
+	box-shadow: 0 0 10px #000000b4;
+	transform: scale(1.04);
+}

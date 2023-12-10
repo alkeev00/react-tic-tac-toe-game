@@ -1,0 +1,12 @@
+:root {
+	/* typography */
+	--font-main: 'Nunito', sans-serif;
+	--font-game: 'Vibes', sans-serif;
+	--font-weight: 400;
+
+	/* colors */
+	--bg-color: #111111;
+	--text-color: #eeeeee;
+	--x-color: #e888b2;
+	--o-color: #79d3cd;
+}

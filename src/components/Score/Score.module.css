@@ -1,0 +1,29 @@
+.scoreWrapper {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 1rem;
+	font-size: 2rem;
+	line-height: 2rem;
+}
+
+.score {
+	background-color: var(--bg-color);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	gap: 1rem;
+	box-shadow: 0 0 4px #000000b4;
+	border-radius: 6px;
+	padding: 1rem;
+}
+
+.score.activeX {
+	box-shadow: 0 0 4px var(--x-color);
+	transition: all 0.3s ease-in-out;
+}
+.score.activeO {
+	box-shadow: 0 0 4px var(--o-color);
+	transition: all 0.3s ease-in-out;
+}
