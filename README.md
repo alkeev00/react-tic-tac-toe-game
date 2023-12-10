@@ -1,4 +1,4 @@
-### Tic Tac Toe Game App
+### Tic-Tac-Toe Game App
 
 This application was created for the purpose of practicing coding in React JS.
 
